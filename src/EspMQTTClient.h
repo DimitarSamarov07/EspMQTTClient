@@ -18,7 +18,7 @@
   #define WebServer ESP8266WebServer
 
 #else // for ESP32
-
+  #include <WiFi.h>
   #include <WiFiClient.h>
   #include <WebServer.h>
   #include <ESPmDNS.h>
